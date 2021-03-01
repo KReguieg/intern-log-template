@@ -1,18 +1,3 @@
-# intern-log-template
-----
-**!!!!!!!!!DELETE THIS AFTER FORKING**
-
-----
-This repository holds the template of a internship log for my interns as a markdown file. It is supposed to be forked and then filled by the interns.
-
-----
-
-**!!!!!!!!!DELETE THIS AFTER FORKING**
-
-**REAL LOG STARTS BELOW BEGINNING WITH 🚀🚀🚀**
-
-----
-
 # 🚀🚀🚀My Internship Log🚀🚀🚀
 
 This document is my personal log. It shows/documents my journey with the immersive insiders team and my personal development.

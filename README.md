@@ -26,7 +26,7 @@ Most important is not a lot of text, but very concentrated text that explains th
     - If credentials of a git user already exit , it can be easly changed by 
         - Type  " git config --global --user " . Which will open the following screen
         ![](img/Git_Config_snipping.JPG) 
-        - At the bottom you can see the path at which the congif file is located 
+        - At the bottom you can see the path at which the config file is located 
         - Naviagte to that path, open the file and enter your git email.
         - Whola ! it's done !
 

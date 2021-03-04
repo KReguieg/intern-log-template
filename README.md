@@ -23,7 +23,7 @@ Most important is not a lot of text, but very concentrated text that explains th
         - Use 'git add' to add the files which have to committed and pushed, add only the files that were edited.
         - Use 'git commit -m "some text" ' to commit your changes, before committing make sure to add a short note using -m " " ,note should mention what modification one has made
         - Use 'git push' to finally push it to your repo in the server.
-    - If credentials of a git user already exit , it can be easly changed by 
+    - If credentials of a git user already exit , it can be easily changed by 
         - Type  " git config --global --user " . Which will open the following screen
         ![](img/Git_Config_snipping.JPG) 
         - At the bottom you can see the path at which the config file is located 

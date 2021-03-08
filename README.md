@@ -38,7 +38,7 @@ Most important is not a lot of text, but very concentrated text that explains th
         3. In 3D View , select View tab and choose your VR Camera
         4. In 3D View , select VR tab and click on Start VR Session
         
-        ------> (Vid/VR_Blender.mp4) 
+        ![](Vid/Blender-VR.gif) 
 
 
 - Unity Programming
@@ -48,6 +48,8 @@ Most important is not a lot of text, but very concentrated text that explains th
         - Syntax : Invoke("Function_name_in_form_of_staring", delay_duration)
     
 
+- Programming Principles 
+    - Learnt the S O L I D , principles 
 
 ### 🛠Created
 - Tried with this image 
@@ -60,8 +62,13 @@ Most important is not a lot of text, but very concentrated text that explains th
 
 *author: hands holding smartphone by Atif Arshad from the Noun Project*
 
-This is how it looks after animation: (Vid/mobileanim.mp4) 
+This is how it looks after animation: 
 
+![](Vid/MobileAnimation.gif) 
+
+Version 2 :
+
+![](Vid/MobileAnimationv2.gif) 
 
 -------------------------------------
 

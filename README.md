@@ -74,9 +74,15 @@ Version 2 :
 
 ## Week 2 2021-03-08
 
-### My Tasks
+**USE BRANCHING FOR WEEK 2!!! create a branch which is named log-update/week-2**...
 
-### Created
+...and add your changes for week two in it, next monday we are going to review the branch and merge it into main"
+
+### ✅My Tasks
+
+### 📚What I learned
+
+### 🛠Created
 
 ## Create github.io website from the log
 

@@ -81,6 +81,26 @@ Version 2 :
 ### ✅My Tasks
 
 ### 📚What I learned
+- Formatting text in TextMesh Pro
+    -   For my game I had the credits canvas and I wanted  it to look clean and neat.
+    - Initially I tried formatting it in a word document and pasting it in the unity's text box, But realized that it does not work that way!
+    - After looking up for it in google I found this website :
+    [Digital Native Studios](http://digitalnativestudios.com/textmeshpro/docs/)
+    - It has documented all the different type of formatting that can be done using TextMesh Pro.
+    - I learnt to use the tags, they were similar to a HTML tags.
+    - I learnt how to download sprite sheet, use the sprite editor to split it and use the tags in TextMesh pro .
+    -  And what you see below is me using those features to modify the text as per my requirement.
+
+        ![](Vid/CreditCanvas.gif) 
+- Git Hub
+    - Learnt how branching is done, below is the correct flow of commands that has to be followed.
+        - Check for status, add the edited files , commit and push to your main i.e the forked repository also called as origin 
+        - Go to git hub and Merge the pull request from the upstream.
+        - Now the upstream content will be merged to your main 
+        - Pull this main into your local drive.
+        - Create a branch for this using the command "git branch * log-update/week-2"  
+        -Now that your branching is complete in your local and to see the same in you github, you can check for status, it will show which branch you are in and then if there is nothing to commit proceed to push it.
+        - Now that we have a branch ,to push it its always a good practice to mention the path where it has to be pushed to,so for my case the command looks like : git push origin log-update/week-2
 
 ### 🛠Created
 

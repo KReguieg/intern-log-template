@@ -10,7 +10,7 @@ Most important is not a lot of text, but very concentrated text that explains th
 - Create/search a phone/scanning image
     - Create a animation from it in Unity
 - Learning about branching and git flow
-    
+- Solid Principles   
 
 ### 📚What I learned
 - There is this website [TheNounProject](https://thenounproject.com/)
@@ -82,7 +82,7 @@ Version 2 :
 
 ### 📚What I learned
 - Formatting text in TextMesh Pro
-    -   For my game I had the credits canvas and I wanted  it to look clean and neat.
+    - For my game I had the credits canvas and I wanted  it to look clean and neat.
     - Initially I tried formatting it in a word document and pasting it in the unity's text box, But realized that it does not work that way!
     - After looking up for it in google I found this website :
     [Digital Native Studios](http://digitalnativestudios.com/textmeshpro/docs/)
@@ -102,7 +102,37 @@ Version 2 :
         -Now that your branching is complete in your local and to see the same in you github, you can check for status, it will show which branch you are in and then if there is nothing to commit proceed to push it.
         - Now that we have a branch ,to push it its always a good practice to mention the path where it has to be pushed to,so for my case the command looks like : git push origin log-update/week-2
 
+- Blender
+    - Learnt how to add textures and material to 3D models.
+    - I attempted to add the material and textures, but when i exported it and imported it in unity the textures were missing.
+    ![](img/blender_texture.PNG) 
+    ![](img/blender_texture2.PNG)  
+    - So need learn as to how a model should be correctly exported to unity.
+
+- Unity
+    - Optimization is important and today I learnt that the texture take up a lot of memory.
+    - The size that shows up in your file explorer is the physical texture size and the size that shows up in unity editor is the Game memory size.
+     ![](img/imgsize.png) 
+     
+     - If you want to save up the memory while the game is running you can decrease the max size in the editor
+     ![](Vid/Texture_Size_reduction.gif) 
+     - I ended up saving a lot of memory 💾. As you can see above just by halving the size , the memory is reduced by 10X.  
+
 ### 🛠Created
+
+- Created Virus model with different texture:
+![](Vid/virus_texture.gif) 
+
+
+- As the texture was not imported from blender, the actual creation happened in unity editor editor this is how it looks:
+![](Vid/Virus_newtexture1.gif) 
+![](Vid/Virus_newtexture2.gif) 
+
+- Sadly they did not look that good when Augmented:
+
+    ![](Vid/Virus_AR1.gif)
+    
+    ![](Vid/Virus_AR2.gif)
 
 ## Create github.io website from the log
 

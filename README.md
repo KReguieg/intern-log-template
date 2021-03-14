@@ -124,7 +124,8 @@ Version 2 :
 ![](Vid/virus_texture.gif) 
 
 
-- As the texture was not imported from blender, the actual creation happened in unity editor editor this is how it looks:
+- As the texture was not imported from blender, the actual creation happened in unity editor editor this is how it looks: 
+
 ![](Vid/Virus_newtexture1.gif) 
 ![](Vid/Virus_newtexture2.gif) 
 
@@ -135,5 +136,9 @@ Version 2 :
     ![](Vid/Virus_AR2.gif)
 
 ## Create github.io website from the log
+
+    - I have created my github.io but its not yet ready, I am yet to learn how to edit it and make it look good.
+    - Here is the link :https://ashraypai.github.io/intern-log-template/
+    
 
 

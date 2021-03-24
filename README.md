@@ -79,6 +79,8 @@ Version 2 :
 ...and add your changes for week two in it, next monday we are going to review the branch and merge it into main"
 
 ### ✅My Tasks
+ - Learning about branching and git flow
+- Solid Principles   
 
 ### 📚What I learned
 - Formatting text in TextMesh Pro
@@ -88,11 +90,14 @@ Version 2 :
     [Digital Native Studios](http://digitalnativestudios.com/textmeshpro/docs/)
     - It has documented all the different type of formatting that can be done using TextMesh Pro.
     - I learnt to use the tags, they were similar to a HTML tags.
-    - I learnt how to download sprite sheet, use the sprite editor to split it and use the tags in TextMesh pro .
+    - I learnt how to download sprite sheet, use the sprite editor to split it and use the tags in TextMesh pro to display the sprite as emojis.
+    ![](img/Sprite-Atlas.PNG)
+    - Basically to represent the words "VISUAL" and "MUSIC" as icons, highlighted in yellow box below.
+    ![](img/TextMeshPro_emoji.PNG)
     -  And what you see below is me using those features to modify the text as per my requirement.
-
         ![](Vid/CreditCanvas.gif) 
-- Git Hub
+
+- Git 
     - Learnt how branching is done, below is the correct flow of commands that has to be followed.
         - Check for status, add the edited files , commit and push to your main i.e the forked repository also called as origin 
         - Go to git hub and Merge the pull request from the upstream.
@@ -137,8 +142,40 @@ Version 2 :
 
 ## Create github.io website from the log
 
-    - I have created my github.io but its not yet ready, I am yet to learn how to edit it and make it look good.
-    - Here is the link :https://ashraypai.github.io/intern-log-template/
+- I have created my github.io but its not yet ready, I am yet to learn how to edit it and make it look good.
+ - Here is the link :https://ashraypai.github.io/intern-log-template/
     
 
+## Week 3 2021-03-15
 
+### ✅My Tasks
+- Helping With VR course
+- Unity Design Principles
+- Learning about particle effects in Unity  
+
+### 📚What I learned
+- Creating Augmented Reality Inside of Virtual Reality
+    - We were able to create a model of tablet with camera and that would be able to use Ray-cast to detect images and spawn 3D objects.
+    - The 3D model then could be pulled into VR by using events and changing the events
+
+- Learnt to use the VFX graph in unity to  create cool Particle effects.
+    - Used the VFX graph to create the Fireworks with Immersive insider logo.
+    - I referred to this video :https://www.youtube.com/watch?v=iCEHarLRCzI to create the basic rockets.
+    - And then refer to this video : https://www.youtube.com/watch?v=r2Eoy3-p-xc&t=541s to create the 2D images as particle effects.
+
+- Learnt to create 3D models in Blender
+    - Used the add on from https://keentools.io/ 
+    - Referred to the tutorials on their website and this video : https://www.youtube.com/watch?v=5WH7s-IPIeM to model my face in blender.
+
+### 🛠Created
+
+- Fireworks using particle effects and VFX Graph
+    
+    ![](Vid/Fireworks.gif)
+
+- 3D model of my face , ( Yes! does not look like me, definitely needs improvement)
+     ![](Vid/Blender_face_2d.gif)
+     ![](Vid/Blender_face_3Dmodel.gif)
+
+- Created Particle Effects out of that 3D model
+    ![](Vid/FaceModelEffect.gif)

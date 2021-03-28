@@ -103,7 +103,7 @@ Version 2 :
         - Go to git hub and Merge the pull request from the upstream.
         - Now the upstream content will be merged to your main 
         - Pull this main into your local drive.
-        - Create a branch for this using the command "git branch * log-update/week-2"  
+        - Create a branch for this using the command "git branch log-update/week-2"  
         -Now that your branching is complete in your local and to see the same in you github, you can check for status, it will show which branch you are in and then if there is nothing to commit proceed to push it.
         - Now that we have a branch ,to push it its always a good practice to mention the path where it has to be pushed to,so for my case the command looks like : git push origin log-update/week-2
 
@@ -170,12 +170,36 @@ Version 2 :
 ### 🛠Created
 
 - Fireworks using particle effects and VFX Graph
-    
     ![](Vid/Fireworks.gif)
 
 - 3D model of my face , ( Yes! does not look like me, definitely needs improvement)
      ![](Vid/Blender_face_2d.gif)
+
      ![](Vid/Blender_face_3Dmodel.gif)
 
 - Created Particle Effects out of that 3D model
     ![](Vid/FaceModelEffect.gif)
+
+
+## Week 4 2021-03-22
+
+### ✅My Tasks
+- Unity Design Patterns  
+- Blog on AR Setup   
+- Blog on Creating Fireworks effect using VFX Graph and Post Processing
+
+### 📚What I learned
+- Learnt the following Unity patterns :
+    - Singleton
+    - Object Pooling
+    - Observer 
+    - Component 
+    - Flyweight
+
+     ![](img/UnityDesignPattern.png) 
+
+### 🛠Created
+
+- The Blog on AR setup here in this link : https://github.com/ashraypai/BlogPosts/tree/master/AR%20Setup
+
+- The Blog on VFX graph and PostProcessing can be found here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VFX%20Graph

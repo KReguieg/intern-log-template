@@ -195,11 +195,54 @@ Version 2 :
     - Observer 
     - Component 
     - Flyweight
-
-     ![](img/UnityDesignPattern.png) 
+![](img/UnityDesignPattern.png) 
 
 ### 🛠Created
 
 - The Blog on AR setup here in this link : https://github.com/ashraypai/BlogPosts/tree/master/AR%20Setup
 
 - The Blog on VFX graph and PostProcessing can be found here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VFX%20Graph
+
+## Week 5 2021-03-29
+
+### ✅My Tasks
+- C# intermediate concepts 
+- Blog on VR setup and XR Simulator Controls
+- Snapchat Lens
+
+
+### 📚What I learned
+- Learnt the following concepts in C# :
+    - Interface ✔
+    - Inheritance ✔
+    - Polymorphism 
+    - Delegates 
+    - Lamda expressions
+
+![](img/C_Concepts_1.png) 
+
+- Learnt to use the Lens Studio software from Snpachat, to create AR lens.This software has accurate face, hand and body tracking. 
+I have created 2 lens, to try it, open snapchat and scan the below code
+    1. Immersive Trial :
+
+        ![](img/Immersive_trial.png)
+    
+    2. Immersive Cap:
+
+        ![](img/Immersive_cap.png)
+
+### 🛠Created
+
+- The Blog on AR setup here in this link : https://github.com/ashraypai/BlogPosts/tree/master/AR%20Setup
+
+- The Blog on VFX graph and PostProcessing can be found here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VFX%20Graph
+
+- Created Immersive Insider lens 
+
+    1. Immersive Trail:
+
+        ![](vid/Immersive_trial.gif)
+
+    2. Immersive Cap:
+
+        ![](vid/Immersive_cap.gif)

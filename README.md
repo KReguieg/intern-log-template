@@ -8,14 +8,14 @@ Most important is not a lot of text, but very concentrated text that explains th
 
 ### ✅My Tasks
 - Create/search a phone/scanning image
-    - Create a animation from it in Unity
+    - Create an animation from it in Unity
 - Learning about branching and git flow
 - Solid Principles   
 
 ### 📚What I learned
 - There is this website [TheNounProject](https://thenounproject.com/)
-    - it offers a whole world of nice high quality icons
-    - I should keep in mind to credit the author otherwise it is "stealing"
+    - it offers a whole world of nice high-quality icons
+    - I should keep in mind to credit the author otherwise it is "stealing”.
 
 - Git
     - Git Workflow
@@ -24,7 +24,7 @@ Most important is not a lot of text, but very concentrated text that explains th
         - Use 'git commit -m "some text" ' to commit your changes, before committing make sure to add a short note using -m " " ,note should mention what modification one has made
         - Use 'git push' to finally push it to your repo in the server.
     - If credentials of a git user already exit , it can be easily changed by 
-        - Type  " git config --global --user " . Which will open the following screen
+        - Type  " git config --global --user " . Which will open the following screen?
         ![](img/Git_Config_snipping.JPG) 
         - At the bottom you can see the path at which the config file is located 
         - Navigate to that path, open the file and enter your git email.
@@ -34,7 +34,7 @@ Most important is not a lot of text, but very concentrated text that explains th
     - We can render blender models into VR Devices directly to see the preview.
     - Following are the simple steps as to how that feature can be enabled
         1. Edit -> Preferences -> Add-ons
-        2. Search for VR and ☑ check the box for "3D View: VR Scene Inspection"
+        2. Search for VR and ☑ check the box for "3D View: VR Scene Inspection”.
         3. In 3D View , select View tab and choose your VR Camera
         4. In 3D View , select VR tab and click on Start VR Session
         
@@ -44,7 +44,7 @@ Most important is not a lot of text, but very concentrated text that explains th
 - Unity Programming
     - Learnt to use Invoke function 
         - I wanted to delay the start of my game by few seconds, I thought I could use coroutines and make the function to wait for few seconds, but that logic does not work , because in coroutines the function is already executed , it returns void.
-        - After some researching I found out about *Invoke* Function, using this you can invoke a function after a certain time duration. This solved my problem. 
+        - After some researching, I found out about *Invoke* Function, using this you can invoke a function after a certain time duration. This solved my problem. 
         - Syntax : Invoke("Function_name_in_form_of_staring", delay_duration)
     
 
@@ -76,7 +76,7 @@ Version 2 :
 
 **USE BRANCHING FOR WEEK 2!!! create a branch which is named log-update/week-2**...
 
-...and add your changes for week two in it, next monday we are going to review the branch and merge it into main"
+...and add your changes for week two in it, next Monday we are going to review the branch and merge it into main”.
 
 ### ✅My Tasks
  - Learning about branching and git flow
@@ -85,34 +85,34 @@ Version 2 :
 ### 📚What I learned
 - Formatting text in TextMesh Pro
     - For my game I had the credits canvas and I wanted  it to look clean and neat.
-    - Initially I tried formatting it in a word document and pasting it in the unity's text box, But realized that it does not work that way!
+    - Initially I tried formatting it in a word document and pasting it in the unity's text box but realized that it does not work that way!
     - After looking up for it in google I found this website :
     [Digital Native Studios](http://digitalnativestudios.com/textmeshpro/docs/)
     - It has documented all the different type of formatting that can be done using TextMesh Pro.
     - I learnt to use the tags, they were similar to a HTML tags.
     - I learnt how to download sprite sheet, use the sprite editor to split it and use the tags in TextMesh pro to display the sprite as emojis.
     ![](img/Sprite-Atlas.PNG)
-    - Basically to represent the words "VISUAL" and "MUSIC" as icons, highlighted in yellow box below.
+    - Basically, to represent the words "VISUAL" and "MUSIC" as icons, highlighted in yellow box below.
     ![](img/TextMeshPro_emoji.PNG)
     -  And what you see below is me using those features to modify the text as per my requirement.
         ![](Vid/CreditCanvas.gif) 
 
 - Git 
     - Learnt how branching is done, below is the correct flow of commands that has to be followed.
-        - Check for status, add the edited files , commit and push to your main i.e the forked repository also called as origin 
+        - Check for status, add the edited files , commit and push to your main i.e., the forked repository also called as origin 
         - Go to git hub and Merge the pull request from the upstream.
         - Now the upstream content will be merged to your main 
         - Pull this main into your local drive.
-        - Create a branch for this using the command "git branch log-update/week-2"  
-        -Now that your branching is complete in your local and to see the same in you github, you can check for status, it will show which branch you are in and then if there is nothing to commit proceed to push it.
-        - Now that we have a branch ,to push it its always a good practice to mention the path where it has to be pushed to,so for my case the command looks like : git push origin log-update/week-2
+        - Create a branch for this using the command "git branch log-update/week-2”.  
+        -Now that your branching is complete in your local and to see the same in you GitHub, you can check for status, it will show which branch you are in and then if there is nothing to commit proceed to push it.
+        - Now that we have a branch ,to push it is always a good practice to mention the path where it has to be pushed to, so for my case the command looks like : git push origin log-update/week-2
 
 - Blender
     - Learnt how to add textures and material to 3D models.
-    - I attempted to add the material and textures, but when i exported it and imported it in unity the textures were missing.
+    - I attempted to add the material and textures, but when I exported it and imported it in unity the textures were missing.
     ![](img/blender_texture.PNG) 
     ![](img/blender_texture2.PNG)  
-    - So need learn as to how a model should be correctly exported to unity.
+    - So, need learn as to how a model should be correctly exported to unity.
 
 - Unity
     - Optimization is important and today I learnt that the texture take up a lot of memory.
@@ -129,12 +129,12 @@ Version 2 :
 ![](Vid/virus_texture.gif) 
 
 
-- As the texture was not imported from blender, the actual creation happened in unity editor editor this is how it looks: 
+- As the texture was not imported from blender, the actual creation happened in unity editor this is how it looks: 
 
 ![](Vid/Virus_newtexture1.gif) 
 ![](Vid/Virus_newtexture2.gif) 
 
-- Sadly they did not look that good when Augmented:
+- Sadly, they did not look that good when Augmented:
 
     ![](Vid/Virus_AR1.gif)
     
@@ -142,14 +142,14 @@ Version 2 :
 
 ## Create github.io website from the log
 
-- I have created my github.io but its not yet ready, I am yet to learn how to edit it and make it look good.
+- I have created my github.io but it’s not yet ready, I am yet to learn how to edit it and make it look good.
  - Here is the link :https://ashraypai.github.io/intern-log-template/
     
 
 ## Week 3 2021-03-15
 
 ### ✅My Tasks
-- Helping With VR course
+- Helping with VR course
 - Unity Design Principles
 - Learning about particle effects in Unity  
 
@@ -158,7 +158,7 @@ Version 2 :
     - We were able to create a model of tablet with camera and that would be able to use Ray-cast to detect images and spawn 3D objects.
     - The 3D model then could be pulled into VR by using events and changing the events
 
-- Learnt to use the VFX graph in unity to  create cool Particle effects.
+- Learnt to use the VFX graph in unity to create cool Particle effects.
     - Used the VFX graph to create the Fireworks with Immersive insider logo.
     - I referred to this video :https://www.youtube.com/watch?v=iCEHarLRCzI to create the basic rockets.
     - And then refer to this video : https://www.youtube.com/watch?v=r2Eoy3-p-xc&t=541s to create the 2D images as particle effects.
@@ -201,7 +201,7 @@ Version 2 :
 
 - The Blog on AR setup here in this link : https://github.com/ashraypai/BlogPosts/tree/master/AR%20Setup
 
-- The Blog on VFX graph and PostProcessing can be found here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VFX%20Graph
+- The Blog on VFX graph and Postprocessing can be found here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VFX%20Graph
 
 ## Week 5 2021-03-29
 
@@ -221,8 +221,8 @@ Version 2 :
 
 ![](img/C_Concepts_1.png) 
 
-- Learnt to use the Lens Studio software from Snpachat, to create AR lens.This software has accurate face, hand and body tracking. 
-I have created 2 lens, to try it, open snapchat and scan the below code
+- Learnt to use the Lens Studio software from Snpachat, to create AR lens. This software has accurate face, hand and body tracking. 
+I have created 2 lenses, to try it, open snapchat and scan the below code.
     1. Immersive Trial :
 
         ![](img/Immersive_trial.png)
@@ -233,9 +233,7 @@ I have created 2 lens, to try it, open snapchat and scan the below code
 
 ### 🛠Created
 
-- The Blog on AR setup here in this link : https://github.com/ashraypai/BlogPosts/tree/master/AR%20Setup
-
-- The Blog on VFX graph and PostProcessing can be found here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VFX%20Graph
+- The Blog on VR setup and XR Simulator Controls, here in this link : https://github.com/ashraypai/BlogPosts/tree/master/VR%20Steup%20for%20using%20simulator
 
 - Created Immersive Insider lens 
 
@@ -246,3 +244,39 @@ I have created 2 lens, to try it, open snapchat and scan the below code
     2. Immersive Cap:
 
         ![](vid/Immersive_cap.gif)
+
+## Week 6 2021-04-05
+
+### ✅My Tasks
+- Setting up VR device for the course
+- Creating feature for the course.
+- Using shader graph to how out of boundary 
+
+
+### 📚What I learned
+- Learnt to setup HTC vive and required packages to use the controllers input for the interactions:
+    - The XR interaction tool kit has to setup first, refer to this blog : VR setup and XR Simulator Controls
+    - Click on Windows -> Package Manager -> Install OpenXR plugin, after installation, import the Controller from samples.
+    ![](img/openxr.png)
+    - Go to file -> Build settings -> Player settings -> XR Plug-in Management and check the box ☑ for OpenXR.
+    ![](img/openxrsetting.png)
+    -  In the same window, click on features under OpenXR and check the box ☑ for HTC Vive Controller Profile. 
+    ![](img/openxrsetting2.png)
+
+    With that HTC vive controllers can now be used to interact with the object in the scene. 
+
+- Learnt to use shader graph to create a hologram effect:
+    I learnt to use the shader graph from the following YouTube tutorials to create 2 holograms as a feature for the course: https://www.youtube.com/watch?v=wtZ5WcrV-9A  and https://www.youtube.com/watch?v=KGGB5LFEejg
+
+- Attempted to recreate the out of boundary effect from Half-life Alyx using shader graph but I was unable to. However, I was able to obtain the same effect by using colliders.
+
+    Key learning here for me was that for a good game design and programming we don't want to keep colliders and check for triggers all the time, instead if I am able to achieve it with shader graph it considered as a better design.
+
+### 🛠Created
+
+- The hologram effects:
+    ![](vid/hologram.gif)
+
+
+- Out of boundary effect:
+    ![](vid/outofbounds.gif)

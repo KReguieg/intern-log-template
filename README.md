@@ -104,7 +104,8 @@ Version 2 :
         - Now the upstream content will be merged to your main 
         - Pull this main into your local drive.
         - Create a branch for this using the command "git branch log-update/week-2”.  
-        -Now that your branching is complete in your local and to see the same in you GitHub, you can check for status, it will show which branch you are in and then if there is nothing to commit proceed to push it.
+        -Now that your branching is complete in your local and to see the same in you GitHub, you can check for status, it will show which branch you are i
+        n and then if there is nothing to commit proceed to push it.
         - Now that we have a branch ,to push it is always a good practice to mention the path where it has to be pushed to, so for my case the command looks like : git push origin log-update/week-2
 
 - Blender
@@ -280,3 +281,41 @@ I have created 2 lenses, to try it, open snapchat and scan the below code.
 
 - Out of boundary effect:
     ![](vid/outofbounds.gif)
+
+
+## Week 7 2021-04-12
+
+### ✅My Tasks
+- C# intermediate concepts.
+- Selfie feature for the VR Course.
+- Blog on the Simulator key bindings.[pending]
+
+
+### 📚What I learned
+- Learnt to use socket interaction for snapping the phone in place when the selfie stick's holder is close to it. Few points to remember is that for the socket interaction to work it requires a collider with "Is trigger" checked and also it better to have an attach transform , this will be the orientation taken by the game object when being interacted with. 
+
+- Started to lean animation rigging. Idea is to a Body in VR. I learnt how to assign the bones and create joints.
+
+- Learnt about a software called Fork, which is useful while using github. It makes the all the git-flow like adding, committing, pushing,etc a lot easier 
+    
+
+### 🛠Created
+
+- Selfie stick dummy and then downloaded 3D asset from sketch fab . Credits : "Selfie Stick" (https://skfb.ly/6WT6V) by Mason is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+![](vid/socketinteraction.gif)
+
+## Week 8 2021-04-19
+
+### ✅My Tasks
+- Documentation of the features that I committed
+- C# intermediate concepts[pending]
+- Selfie Stick + hologram feature
+- Research on Designing Great VR experience  
+
+### 📚What I learned
+- Every feature of a project needs to have a documentation, it captures all the things that was done apart from basic coding, below is the documentation for my hologram feature  :
+
+    Hologram feature : 
+    This feature uses shader graph to create an illusion of hologram, in particular its a hologram of immersive insiders and digital animal logo. It basically has 3 components, first is the tilting and offset with texture, which creates the effect of lines moving in on particular direction. Next is the fresnel effect,which creates the glowing effect around the hologram. The last component is flickering, which creates the effect of flickering objects.
+    It uses simple code which activates, deactivates and rotates the hologram
+- Leant on how correct usage of Interaction , Audio and visuals can increase the user experience in immersion. Motion sickness is something a developer has to keep in mind and ensure that user is made to feel comfortable at all times.The entire documentation of this can be found on [Notion](https://www.notion.so/dineshpunni/How-to-design-a-great-VR-experience-6b4b0f1e956a4be79b84bb3a4d38ee9c)

@@ -319,3 +319,98 @@ I have created 2 lenses, to try it, open snapchat and scan the below code.
     This feature uses shader graph to create an illusion of hologram, in particular its a hologram of immersive insiders and digital animal logo. It basically has 3 components, first is the tilting and offset with texture, which creates the effect of lines moving in on particular direction. Next is the fresnel effect,which creates the glowing effect around the hologram. The last component is flickering, which creates the effect of flickering objects.
     It uses simple code which activates, deactivates and rotates the hologram
 - Leant on how correct usage of Interaction , Audio and visuals can increase the user experience in immersion. Motion sickness is something a developer has to keep in mind and ensure that user is made to feel comfortable at all times.The entire documentation of this can be found on [Notion](https://www.notion.so/dineshpunni/How-to-design-a-great-VR-experience-6b4b0f1e956a4be79b84bb3a4d38ee9c)
+
+## Week 9 2021-04-26
+
+### ✅My Tasks
+- C# intermediate concepts [pending]
+- Selfie Stick [pending]
+- animation rigging [pending]
+- XR simulator controls [pending] 
+- Research on Designing Great VR experience  
+
+### 📚What I learned
+I learnt the theoretical part of developing a VR game/app. After some research I wrote a documentation that captures all the aspect that goes into developing a VR game. 
+The documentation can be found in Notion, but here is the topics that I have covered :
+
+1. Goal of the VR app : talk about having a goal for that app, determining target audience, possible problems.etc 
+
+    1.1 End Goal
+
+    1.2 Target Hardware
+
+2. Interaction 
+
+    2.1 Intractable objects : If something looks interactive, it has to be interactive. Detailing , scale of 3D objects
+
+    2.2 UI of intractable objects : The hand grabbing the door, pressing button. some kind of cue to show that its intractable
+
+    2.3 Gestures: Interaction based on gestures i.e making interaction as natural as possible .
+
+    2.4 Gaze interaction 
+
+    2.5 Interaction feedback: Using audio or haptic feedback when interaction are made. 
+
+    2.6  Intractable Menu and its UI : keeping menu in 3D world and making them simple to use. 
+
+3. Audio and Visual 
+
+    3.1 Spatial Sound : Sound coming actual source , 3D sound (holophonic). Walking sound , interaction sound. Positional audio helps in guiding 
+
+    3.2 Ambient sound : Sets the mood of the scene like calm, intense etc 
+
+    3.3 Audio Source: Speakers vs Headphones
+
+    3.4 Curved Canvas and Text: Better to use curved canvas for displaying text . Text font, style , max number of characters( do not keep long text)
+
+    3.5 Visuals of 3D game objects and avatar : Should not be uncanny , better to have no avatar then avatar with unnatural movements. should not effect performance 
+
+    3.6 Visual effects and animation: Visual effect techniques like isometrics, lighting, and shadows. Objects need to have appropriate animation 
+
+4. Lighting 
+
+    4.1 Types of lighting : Directional , point , spot light , etc
+
+    4.2 Light Modes [Changed]
+
+    4.3 Believable visuals: lighting strategy: Hemisphere lighting, direct and indirect lighting 
+
+5. 3D Environment 
+
+    5.1 Virtual Space : people can easily get uncomfortable in small, large, or high spaces (claustrophobia/agoraphobia/vertigo)
+
+    5.2  Distance of 3D objects and menus: Keeping task at same level in depth 
+
+    5.3  Comfort zone : “Goldilocks” zone, it’s best to keep interactive elements between desk height and eye level
+
+    5.4  Encouraging hands position to be up: Hands are used for all interaction so gives more immersion 
+
+    5.5 Relaxing environment : Repetitive patter can cause confusion , enable user to pause and save to relax, scenes that would automatically makes user feel relaxed. Avoid high contrast , harsh sound and extreme graphics 
+
+    5.6 Transitioning scene: Smooth transition while change of scene, no sudden increase the brightness or vice versa
+
+6. Motion sickness and prevention:  Why does it happen and how to avoid it
+
+    6.0 Understanding the Cause
+
+    6.1 Technical : FPS (judder), Poly count in scene , usage of materials and textures , pre-computed lighting 
+
+    6.2  Locomotion : Teleportation vs continuous, No continuous rotation . If continuous use constant velocity with no acceleration 
+
+    6.3 Field of view :  Continuous movement along with narrow FOV effect (vignetting)
+
+    6.4 Motion to Photon Latency: Real time tracking and no latency from input to output
+
+    6.5 Head Tracking :  Always maintain head tracking 
+
+    6.6 Introducing fixed reference points: Like nose or horizon line that stays with user as they move
+
+7. Immersion and Presence
+
+    7.1 Spatial presence
+
+    7.2 Flow
+
+8. Rapid prototyping : To check got different features and select what suits the app best
+9. Technical aspect of view in VR : Max degree of human head movement , max FOV, user comfort zones,etc
+10. Common Mistakes

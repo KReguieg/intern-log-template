@@ -414,3 +414,48 @@ The documentation can be found in Notion, but here is the topics that I have cov
 8. Rapid prototyping : To check got different features and select what suits the app best
 9. Technical aspect of view in VR : Max degree of human head movement , max FOV, user comfort zones,etc
 10. Common Mistakes
+
+## Week 10 2021-05-03
+
+### ✅My Tasks
+- C# intermediate concepts [pending]
+- Selfie Stick [pending]
+- animation rigging [pending]
+- XR simulator controls [pending] 
+- VR course
+
+### 📚What I learned
+I completed the VR courses by Dinesh and in that process I learnt the following concepts :
+- Using layer masking for AR inside of VR
+- Different types of lighting 
+- Performance optimization
+
+There are a lot more concepts that was thought that I had already learnt before like locomotion, teleportation , snap interaction.
+
+## Week 11 2021-05-10
+
+### ✅My Tasks
+- C# intermediate concepts [pending]
+- Selfie Stick
+- animation rigging [pending]
+- XR simulator controls [pending] 
+- VR course
+
+### 📚What I learned
+I completed the VR courses by Dinesh and in that process I learnt the following concepts :
+- Using layer masking for AR inside of VR
+- Different types of lighting 
+- Performance optimization
+
+Other concepts like adding sound, colliders and game manager was already known to me.
+
+### 🛠Created
+
+I finished the selfie stick feature and now we can take pictures and have it in lock folder. The photo can be clicked using both the front cam and the back cam. The display has been corrected.
+Best practice for Display: first of, better use a quad since it has less geometry. And then try to get to know which ratio your display should have. Is it a 16:9 or 10:9, 4:3 or whatever? Then outside of your parent, size the quad the same and scale down in equal steps to like x 16, y 9
+Your render texture then should get a corresponding pixel ratio
+for example 16:9 screens are often full HD or 4K etc so using one of those would fit for a corresponding screen. 
+![](vid/selfiestick.gif)
+
+![](img/Selfiecam1.png)
+![](img/Selfiecam2.png)
